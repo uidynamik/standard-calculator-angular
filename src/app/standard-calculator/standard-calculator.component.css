@@ -80,6 +80,16 @@ button:hover {
 
 @media (max-width: 425px) {
   .calculator {
-    background-color: green;
+    width: 300px;
+  }
+
+  button {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .calculator-screen {
+    font-size: 3rem;
+    height: 65px;
   }
 }
